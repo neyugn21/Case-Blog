@@ -1,0 +1,109 @@
+/* BlogPage.css */
+.blog-container {
+  max-width: 600px; /* Chiều rộng tối đa */
+  margin: 0 auto; /* Căn giữa */
+  padding: 20px;
+  font-family: Arial, sans-serif; /* Font chữ */
+  background-color: #fff; /* Màu nền trắng */
+  border-radius: 8px; /* Bo góc */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+}
+
+.blog-top-container {
+  display: flex; /* Sử dụng Flexbox */
+  flex-direction: column; /* Sắp xếp theo cột */
+  margin-bottom: 20px; /* Khoảng cách dưới */
+  padding: 15px; /* Đệm */
+  border: 1px solid #ddd; /* Đường viền xung quanh */
+  border-radius: 8px; /* Bo góc */
+  background-color: #f7f7f7; /* Màu nền nhẹ cho khu vực tạo bài */
+}
+
+.avatar {
+  display: flex; /* Sử dụng Flexbox */
+  align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.avatar input {
+  flex: 1; /* Chiếm toàn bộ không gian còn lại */
+  border: 1px solid #ccc; /* Đường viền */
+  border-radius: 20px; /* Bo góc */
+  padding: 10px; /* Đệm */
+  margin-left: 10px; /* Khoảng cách bên trái */
+  background-color: #e9eff1; /* Màu nền cho input */
+}
+
+.avatar button {
+  background-color: #4267b2; /* Màu nền nút */
+  color: white; /* Màu chữ nút */
+  border: none; /* Không có đường viền */
+  border-radius: 20px; /* Bo góc */
+  padding: 10px 15px; /* Đệm */
+  margin-left: 10px; /* Khoảng cách bên trái */
+  cursor: pointer; /* Con trỏ khi di chuột */
+}
+
+.avatar button:hover {
+  background-color: #365eab; /* Màu nền khi hover */
+}
+
+.content-blog {
+  margin-top: 20px; /* Khoảng cách phía trên */
+  background-color: white; /* Màu nền bài viết */
+  padding: 15px; /* Đệm */
+  border-radius: 8px; /* Bo góc */
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+}
+
+.content-top-blog {
+  display: flex; /* Sử dụng Flexbox */
+  justify-content: space-between; /* Căn giữa các phần tử */
+  align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.content-top-blog .left {
+  display: flex; /* Sử dụng Flexbox */
+  align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.content-top-blog .left img {
+  width: 40px; /* Chiều rộng hình ảnh */
+  height: 40px; /* Chiều cao hình ảnh */
+  border-radius: 50%; /* Bo góc hình tròn */
+  margin-right: 10px; /* Khoảng cách bên phải */
+}
+
+.content-top-blog .right {
+  display: flex; /* Sử dụng Flexbox */
+  align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.content-bottom-blog {
+  margin-top: 10px; /* Khoảng cách phía trên */
+}
+
+.content-or-image p {
+  font-size: 16px; /* Kích thước chữ nội dung */
+  margin-bottom: 10px; /* Khoảng cách dưới */
+}
+
+.content-or-image img {
+  width: 100%; /* Chiều rộng đầy đủ */
+  border-radius: 8px; /* Bo góc */
+}
+
+.icon-like {
+  display: flex; /* Sử dụng Flexbox */
+  justify-content: space-between; /* Căn giữa các phần tử */
+  margin-top: 10px; /* Khoảng cách phía trên */
+}
+
+.icon-like span {
+  cursor: pointer; /* Con trỏ khi di chuột */
+  margin-right: 10px; /* Khoảng cách bên phải */
+  font-size: 20px; /* Kích thước biểu tượng */
+}
+
+.icon-like span:hover {
+  color: #4267b2; /* Màu khi hover */
+}
